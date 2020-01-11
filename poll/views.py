@@ -9,7 +9,7 @@ def vote(request):
         username = request.user
         try:
             user = User.objects.get(username=username)
-            if user.is_student == request.session['student'] == True and (user.is_active and not user.profile.allow and not user.profile.status):
+            if user.is_student == request.session['student'] == True and (user.is_active and user.profile.allow and not user.profile.status):
                 context = { }
                 try:
                     context["data"] = UserCandidateGet(user)
