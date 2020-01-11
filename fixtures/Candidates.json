@@ -1,0 +1,552 @@
+[
+{
+    "model": "poll.candidate",
+    "pk": 370101,
+    "fields": {
+        "admission_no": 4170101,
+        "image": "",
+        "name": "Abhilash J J",
+        "post": 170106
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370102,
+    "fields": {
+        "admission_no": 4170102,
+        "image": "",
+        "name": "Abhishek S",
+        "post": 170115
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370103,
+    "fields": {
+        "admission_no": 4170103,
+        "image": "",
+        "name": "Vishal V",
+        "post": 170104
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370104,
+    "fields": {
+        "admission_no": 4170104,
+        "image": "",
+        "name": "Thanush N S",
+        "post": 170116
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370105,
+    "fields": {
+        "admission_no": 4170105,
+        "image": "",
+        "name": "Meghana Sarat",
+        "post": 170105
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370106,
+    "fields": {
+        "admission_no": 4170106,
+        "image": "",
+        "name": "Abhirami S A",
+        "post": 170108
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370107,
+    "fields": {
+        "admission_no": 4170107,
+        "image": "",
+        "name": "Swaraj K",
+        "post": 170117
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370108,
+    "fields": {
+        "admission_no": 4170108,
+        "image": "",
+        "name": "Ambadi Krishnan",
+        "post": 170119
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370109,
+    "fields": {
+        "admission_no": 4170109,
+        "image": "",
+        "name": "Rameez A S",
+        "post": 170110
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370110,
+    "fields": {
+        "admission_no": 4170110,
+        "image": "",
+        "name": "Abin Sabu Mohamed",
+        "post": 170109
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370111,
+    "fields": {
+        "admission_no": 4170111,
+        "image": "",
+        "name": "Akash Asokan",
+        "post": 170107
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370112,
+    "fields": {
+        "admission_no": 4170112,
+        "image": "",
+        "name": "Swarya S V",
+        "post": 170122
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370113,
+    "fields": {
+        "admission_no": 4170113,
+        "image": "",
+        "name": "Anandhu Chandran",
+        "post": 170111
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370114,
+    "fields": {
+        "admission_no": 4170114,
+        "image": "",
+        "name": "Arun Kumar U",
+        "post": 170103
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370115,
+    "fields": {
+        "admission_no": 4170115,
+        "image": "",
+        "name": "Niel George Varghese",
+        "post": 170114
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370116,
+    "fields": {
+        "admission_no": 4170116,
+        "image": "",
+        "name": "Nilshad N L",
+        "post": 170120
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370117,
+    "fields": {
+        "admission_no": 4170117,
+        "image": "",
+        "name": "Sreehari Ramachandran",
+        "post": 170121
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370118,
+    "fields": {
+        "admission_no": 4170118,
+        "image": "",
+        "name": "Gayatri S Kumar",
+        "post": 170112
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370119,
+    "fields": {
+        "admission_no": 4170119,
+        "image": "",
+        "name": "Hitha Krishnan",
+        "post": 170113
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370120,
+    "fields": {
+        "admission_no": 4170120,
+        "image": "",
+        "name": "Ajayanth B",
+        "post": 170102
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370121,
+    "fields": {
+        "admission_no": 4170121,
+        "image": "",
+        "name": "Sharath Krishnan S",
+        "post": 170118
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370122,
+    "fields": {
+        "admission_no": 4170122,
+        "image": "",
+        "name": "Sambhu C",
+        "post": 170101
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370123,
+    "fields": {
+        "admission_no": 4170123,
+        "image": "",
+        "name": "Megha V S",
+        "post": 170107
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370124,
+    "fields": {
+        "admission_no": 4170124,
+        "image": "",
+        "name": "Sidharth V S",
+        "post": 170110
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370125,
+    "fields": {
+        "admission_no": 4170125,
+        "image": "",
+        "name": "Aswanth Venu",
+        "post": 170119
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370126,
+    "fields": {
+        "admission_no": 4170126,
+        "image": "",
+        "name": "Dhanush M L",
+        "post": 170117
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370127,
+    "fields": {
+        "admission_no": 4170127,
+        "image": "",
+        "name": "Deva Pramod",
+        "post": 170109
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370128,
+    "fields": {
+        "admission_no": 4170128,
+        "image": "",
+        "name": "Aswin G",
+        "post": 170118
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370129,
+    "fields": {
+        "admission_no": 4170129,
+        "image": "",
+        "name": "Jayesh Kumar A",
+        "post": 170103
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370130,
+    "fields": {
+        "admission_no": 4170130,
+        "image": "",
+        "name": "Rohin R",
+        "post": 170114
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370131,
+    "fields": {
+        "admission_no": 4170131,
+        "image": "",
+        "name": "Ajay Shankar",
+        "post": 170121
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370132,
+    "fields": {
+        "admission_no": 4170132,
+        "image": "",
+        "name": "Abhijith H",
+        "post": 170120
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370133,
+    "fields": {
+        "admission_no": 4170133,
+        "image": "",
+        "name": "Vivek S S",
+        "post": 170115
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370134,
+    "fields": {
+        "admission_no": 4170134,
+        "image": "",
+        "name": "Sreerag S B",
+        "post": 170104
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370135,
+    "fields": {
+        "admission_no": 4170135,
+        "image": "",
+        "name": "Vivek S I",
+        "post": 170102
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370136,
+    "fields": {
+        "admission_no": 4170136,
+        "image": "",
+        "name": "Varun J John",
+        "post": 170107
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370137,
+    "fields": {
+        "admission_no": 4170137,
+        "image": "",
+        "name": "Parvathy B",
+        "post": 170122
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 370138,
+    "fields": {
+        "admission_no": 4170138,
+        "image": "",
+        "name": "Anantha Krishnan K S",
+        "post": 170103
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380101,
+    "fields": {
+        "admission_no": 4180101,
+        "image": "",
+        "name": "A Anijith",
+        "post": 170114
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380102,
+    "fields": {
+        "admission_no": 4180102,
+        "image": "",
+        "name": "Sujith S",
+        "post": 170111
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380103,
+    "fields": {
+        "admission_no": 4180103,
+        "image": "",
+        "name": "Akhil Eldho",
+        "post": 170118
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380104,
+    "fields": {
+        "admission_no": 4180104,
+        "image": "",
+        "name": "Harikrishnan V",
+        "post": 170120
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380105,
+    "fields": {
+        "admission_no": 4180105,
+        "image": "",
+        "name": "Abhin Sunny Mathew",
+        "post": 170121
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380106,
+    "fields": {
+        "admission_no": 4180106,
+        "image": "",
+        "name": "Anu K",
+        "post": 170112
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380107,
+    "fields": {
+        "admission_no": 4180107,
+        "image": "",
+        "name": "Keerthi A S",
+        "post": 170113
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380108,
+    "fields": {
+        "admission_no": 4180108,
+        "image": "",
+        "name": "Joseph Jose",
+        "post": 170115
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380109,
+    "fields": {
+        "admission_no": 4180109,
+        "image": "",
+        "name": "Haleel Rahuman",
+        "post": 170109
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380110,
+    "fields": {
+        "admission_no": 4180110,
+        "image": "",
+        "name": "Muhammed Ashkar",
+        "post": 170106
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380111,
+    "fields": {
+        "admission_no": 4180111,
+        "image": "",
+        "name": "Keshav Jayashankar",
+        "post": 170105
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380112,
+    "fields": {
+        "admission_no": 4180112,
+        "image": "",
+        "name": "Midhun A",
+        "post": 170116
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380113,
+    "fields": {
+        "admission_no": 4180113,
+        "image": "",
+        "name": "Nivin Joy",
+        "post": 170119
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380114,
+    "fields": {
+        "admission_no": 4180114,
+        "image": "",
+        "name": "Raoof Noushad",
+        "post": 170108
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380115,
+    "fields": {
+        "admission_no": 4180115,
+        "image": "",
+        "name": "Sandeep Thomas",
+        "post": 170104
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380116,
+    "fields": {
+        "admission_no": 4180116,
+        "image": "",
+        "name": "Varun G",
+        "post": 170117
+    }
+},
+{
+    "model": "poll.candidate",
+    "pk": 380117,
+    "fields": {
+        "admission_no": 4180117,
+        "image": "",
+        "name": "Zacharia Joseph",
+        "post": 170110
+    }
+}
+]

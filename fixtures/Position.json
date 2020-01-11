@@ -1,0 +1,244 @@
+[
+{
+    "model": "poll.position",
+    "pk": 170101,
+    "fields": {
+        "position": "1st year MTech Representative",
+        "department": "All",
+        "year": 0,
+        "sex": "All",
+        "degree": "M"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170102,
+    "fields": {
+        "position": "2nd year MTech Representative",
+        "department": "All",
+        "year": 0,
+        "sex": "All",
+        "degree": "M"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170103,
+    "fields": {
+        "position": "Arts Club Secretary",
+        "department": "All",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170104,
+    "fields": {
+        "position": "Automobile Association Secretary",
+        "department": "A",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170105,
+    "fields": {
+        "position": "Biotechnology Association Secretary",
+        "department": "B",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170106,
+    "fields": {
+        "position": "CS Association Secretary",
+        "department": "R",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170107,
+    "fields": {
+        "position": "Chairman",
+        "department": "All",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170108,
+    "fields": {
+        "position": "EC Association Secretary",
+        "department": "T",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170109,
+    "fields": {
+        "position": "First year Representative",
+        "department": "All",
+        "year": 1,
+        "sex": "All",
+        "degree": "B"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170110,
+    "fields": {
+        "position": "Fourth year Representative",
+        "department": "All",
+        "year": 4,
+        "sex": "All",
+        "degree": "B"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170111,
+    "fields": {
+        "position": "General Secretary",
+        "department": "All",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170112,
+    "fields": {
+        "position": "Lady Representative 1",
+        "department": "All",
+        "year": 0,
+        "sex": "F",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170113,
+    "fields": {
+        "position": "Lady Representative 2",
+        "department": "All",
+        "year": 0,
+        "sex": "F",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170114,
+    "fields": {
+        "position": "Magazine Editor",
+        "department": "All",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170115,
+    "fields": {
+        "position": "Mechanical Association Secretary",
+        "department": "M",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170116,
+    "fields": {
+        "position": "Production Association Secretary",
+        "department": "P",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170117,
+    "fields": {
+        "position": "Second year Representative",
+        "department": "All",
+        "year": 2,
+        "sex": "All",
+        "degree": "B"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170118,
+    "fields": {
+        "position": "Sports Club Secretary",
+        "department": "All",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170119,
+    "fields": {
+        "position": "Third year Representative",
+        "department": "All",
+        "year": 3,
+        "sex": "All",
+        "degree": "B"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170120,
+    "fields": {
+        "position": "UUC 1",
+        "department": "All",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170121,
+    "fields": {
+        "position": "UUC 2",
+        "department": "All",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+},
+{
+    "model": "poll.position",
+    "pk": 170122,
+    "fields": {
+        "position": "Vice Chairman",
+        "department": "All",
+        "year": 0,
+        "sex": "All",
+        "degree": "All"
+    }
+}
+]

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="col-md-6 col-md-offset-3" style="margin-top: 12%" >
+    <form id="msform" method="POST">
+        {% csrf_token %}
+        <fieldset>
+            <h2 class="fs-title">Authorise</h2>
+            {% for field in form.visible_fields %}
+                {{ field }}
+            {% endfor %}
+            
+            {% if show_password %}
+                <h3 style="margin-bottom: 2%">
+                    Password : <b>{{ password }}</b>
+                </h3>
+            {% endif %}
+            
+
+            <input type="button" name="previous" class="action-button-previous" value="Reload" onclick="window.location.href=''"/>
+            <input type="submit" name="next" class="action-button" value="Authorize" />
+        </fieldset>
+    </form>
+</div>
+{% endblock %}

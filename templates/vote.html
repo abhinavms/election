@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block content %}
+<div>
+    <div class="center-align">
+        <ul id="progressbar">
+            <li class="active">Introduction</li>
+            {% for key, value in data.items %}
+            <li>{{ value.title }}</li>
+            {% endfor %}
+            <li>Submit</li>
+        </ul>
+        <div class="col-md-6 col-md-offset-3">
+            <form id="msform" method="GET">
+                {% csrf_token %}
+                <fieldset form="msform">
+                    <h2 class="fs-title">Welcome to SCTCE Election 2020</h2>
+                    <h3 class="fs-subtitle">Here are some key points to note</h3>
+                    <ul class="fs-subtitle">
+                        <li>You must select all options before you can caste your vote</li>
+                        <li>Blaaah blaah blaah.... Important point</li>
+                        <li>Here is another important point for the user</li>
+                    </ul>
+                    <input type="button" name="next" class="next action-button" value="Next" />
+                </fieldset>
+
+                {% for key, value in data.items %}
+                <fieldset form="msform">
+                    <h2 class="fs-title">{{ value.title }}</h2>
+                    <div class="ele-option">
+                    {% for id, name in value.candidates.items %}
+                        <div class="radio">
+                            <input id="{{ id }}" name="{{ key }}" type="radio" value='{{ id }}'>
+                            <label for="{{ id }}" class="radio-label">{{ name }}</label>
+                        </div>
+                    {% endfor %}
+                    </div>
+
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    <input type="button" name="next" class="next action-button" value="Next" />
+                </fieldset>
+                {% endfor %}
+                
+                <fieldset form="msform">
+                    <h2 class="fs-title">Submit Your Vote</h2>
+                    <h3 class="fs-subtitle"><em><b>Note: </b>You cannot change your vote once you submit it.</em></h3>
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    <input type="submit" name="submit" class="submit action-button" value="Submit" />
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% block content %}
+<!-- <div class="row"> -->
+<div>
+    <div class="center-align">
+        <ul id="progressbar">
+            <li class="active">Introduction</li>
+            <li>Chairman</li>
+            <li>Vice Chairman</li>
+            <li>Submit</li>
+        </ul>
+        <div class="col-md-6 col-md-offset-3">
+            <form id="msform" method="get">
+                {% csrf_token %}
+                <fieldset form="msform">
+                    <h2 class="fs-title">Welcome to SCTCE Election 2020</h2>
+                    <h3 class="fs-subtitle">Here are some key points to note</h3>
+                    <ul class="fs-subtitle">
+                        <li>You must select all options before you can caste your vote</li>
+                        <li>Blaaah blaah blaah.... Important point</li>
+                        <li>Here is another important point for the user</li>
+                    </ul>
+                    <input type="button" name="next" class="next action-button" value="Next" />
+                </fieldset>
+
+                <fieldset form="msform">
+                    <h2 class="fs-title">Chairman</h2>
+                    <div class="ele-option">
+                        <div class="radio">
+                            <input id="1a" name="Chairman" type="radio" value='Aditya Suresh'>
+                            <label for="1a" class="radio-label">Aditya Suresh</label>
+                        </div>
+
+                        <div class="radio">
+                            <input id="2a" name="Chairman" type="radio" value='Abhishek Menon'>
+                            <label for="2a" class="radio-label">Abhishek Menon</label>
+                        </div>
+                        <div class="radio">
+                            <input id="3a" name="Chairman" type="radio" value='NOTA'>
+                            <label for="3a" class="radio-label">NOTA</label>
+                        </div>
+                    </div>
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    <input type="button" name="next" class="next action-button" value="Next" />
+                </fieldset>
+
+                <fieldset form="msform">
+                    <h2 class="fs-title">Vice Chairman</h2>
+                    <div class="ele-option">
+                        <div class="radio">
+                            <input id="1b" name="VChairman" type="radio" value='Hari Aravind'>
+                            <label for="1b" class="radio-label">Hari Aravind</label>
+                        </div>
+
+                        <div class="radio">
+                            <input id="2b" name="VChairman" type="radio" value='Kavya Suresh'>
+                            <label for="2b" class="radio-label">Kavya Suresh</label>
+                        </div>
+                        <div class="radio">
+                            <input id="3b" name="VChairman" type="radio" value='NOTA'>
+                            <label for="3b" class="radio-label">NOTA</label>
+                        </div>
+                    </div>
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    <input type="button" name="next" class="next action-button" value="Next" />
+                </fieldset>
+
+                <fieldset form="msform">
+                    <h2 class="fs-title">Submit Your Vote</h2>
+                    <h3 class="fs-subtitle"><em><b>Note: </b>You cannot change your vote once you submit it.</em></h3>
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    <input type="submit" name="submit" class="submit action-button" value="Submit" />
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
