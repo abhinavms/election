@@ -1,4 +1,3 @@
-
 ## Todo
 1. CSV --> Student
 2. Start and stop Election
@@ -7,8 +6,6 @@
 5. Voting Status + Redirect
 6. Vote Counting
 7. Results
-
-
 
 ## Setup Commands
 workon django  
