@@ -1,11 +1,10 @@
 ## Todo
 1. CSV --> Student
-2. Start and stop Election [Function Only]
-3. Login Status in front page
-4. Prevent user from going to next page without voting
-5. Voting Status + Redirect
-6. Vote Counting
-7. Results
+2. Login Status in front page
+3. Prevent user from going to next page without voting
+4. Voting Status + Redirect
+5. Vote Counting
+6. Results
 
 ## Setup Commands
 workon django  

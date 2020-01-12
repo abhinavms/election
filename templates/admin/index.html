@@ -23,7 +23,12 @@
                     {% endif %}
                     
                 </th>
-                <td><input type="submit" value=" {% if election_status == 'True' %}Stop{% else %}Start{% endif %}" name="_status-election"></td>
+                <td>
+                    <form action='statuschange' method='POST'>
+                        {% csrf_token %}
+                        <input type="submit" value=" {% if election_status == 'True' %}Stop{% else %}Start{% endif %}" name="_status-election">
+                    </form>     
+                </td>
             </tr>
         </table>
     </div>
