@@ -1,5 +1,20 @@
-{% extends 'base.html' %}
-{% block content %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SCTCE Election 2020</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href="{% static 'styles/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'styles/style.css'%}">
+</head>
+
+<body>
+
 <div>
     <div class="center-align">
         <ul id="progressbar">
@@ -10,7 +25,7 @@
             <li>Submit</li>
         </ul>
         <div class="col-md-6 col-md-offset-3">
-            <form id="msform" method="GET">
+            <form id="msform" method="POST">
                 {% csrf_token %}
                 <fieldset form="msform">
                     <h2 class="fs-title">Welcome to SCTCE Election 2020</h2>
@@ -50,4 +65,38 @@
         </div>
     </div>
 </div>
-{% endblock %}
+
+
+ <script src="{% static 'js/jquery.min.js'%}"></script>
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+    <script src="{% static 'js/jquery.easing.min.js'%}"></script>
+    <script src="{% static 'js/script.js'%}"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#msform').submit(function() { // catch the form's submit event
+                $.ajax({
+                    type:'POST',
+                    url : '{%url "update_vote" %}',
+                    data: $(this).serialize(),
+                       
+                    success: function(data){
+                        
+
+                       if(data.status==0)
+                       {
+                           window.location.href="/vote"
+                       }
+                       else{
+                           alert('asdsad');
+                           window.location.href="/h"
+                       }
+                        
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
