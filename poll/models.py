@@ -66,8 +66,7 @@ class SiteConfigs(models.Model):
 
 
 class Logs(models.Model):
-    candidate_id = models.OneToOneField(Candidate,on_delete=models.CASCADE)
+    candidate_id = models.ForeignKey(Candidate,on_delete=models.CASCADE)
     log = models.IntegerField(default=1)
 
     
-

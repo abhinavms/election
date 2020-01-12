@@ -78,6 +78,7 @@ def update_vote(request):
                    log = Logs.objects.create(candidate_id=candidate,log=1)
                    log.save()
                response = {'status':1}
+               request.session.flush()
 
            else:
 
