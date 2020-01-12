@@ -1,6 +1,6 @@
 ## Todo
 1. CSV --> Student
-2. Start and stop Election
+2. Start and stop Election [Function Only]
 3. Login Status in front page
 4. Prevent user from going to next page without voting
 5. Voting Status + Redirect
@@ -15,6 +15,7 @@ python manage.py runserver
 
 
 sudo service postgresql start  
+sudo -u postgres psql
 \l  
 \c election2020  
 \d  

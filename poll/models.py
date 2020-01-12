@@ -54,3 +54,11 @@ def UserCandidateGet(User):
             context[post.id] = applicable_posts
     return context
     
+class SiteConfigs(models.Model):
+    key = models.CharField(primary_key=True, max_length = 100)
+    value = models.CharField(max_length = 100)
+
+    def __str__(self):
+        return str(self.key)
+
+# insert into "public"."poll_siteconfigs" ("key","value") values ('status', 'True');
