@@ -1,10 +1,9 @@
 ## Todo
-1. CSV --> Student
-2. Login Status in front page
-3. Prevent user from going to next page without voting
-4. Voting Status + Redirect
-5. Vote Counting
-6. Results
+1. Login Status in front page
+2. Prevent user from going to next page without voting
+3. Voting Status + Redirect
+4. Vote Counting
+5. Results
 
 ## Setup Commands
 workon django  

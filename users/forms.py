@@ -70,3 +70,6 @@ class StudentAdminForm(forms.ModelForm):
 class LoginForm(forms.Form):
     username = forms.CharField(label='Username')
     password = forms.CharField(widget=forms.PasswordInput)
+
+class CsvImportForm(forms.Form):
+    csv_file = forms.FileField()

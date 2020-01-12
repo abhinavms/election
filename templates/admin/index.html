@@ -10,6 +10,8 @@
 {% block breadcrumbs %}{% endblock %}
 
 {% block content %}
+
+{% if request.get_full_path == "/admin/" %}
 <div id="content-main">
     <div class="app-startelection">
         <table>
@@ -32,6 +34,7 @@
             </tr>
         </table>
     </div>
+{% endif %}
 
 {% if app_list %}
     {% for app in app_list %}
@@ -72,6 +75,8 @@
 {% else %}
     <p>{% trans 'You don’t have permission to view or edit anything.' %}</p>
 {% endif %}
+    
+    {% if request.get_full_path == "/admin/" %}
     <div class="app-result module">
         <table>
             <caption>
@@ -83,7 +88,9 @@
             </tr>
         </table>
     </div>
+    {% endif %}
 </div>
+
 {% endblock %}
 
 {% block sidebar %}
