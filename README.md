@@ -1,9 +1,7 @@
 ## Todo
 1. Login Status in front page
 2. Prevent user from going to next page without voting
-3. Voting Status + Redirect
-4. Vote Counting
-5. Results
+3. Results
 
 ## Setup Commands
 workon django  
