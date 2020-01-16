@@ -1,0 +1,72 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SCTCE Election 2020- Results</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href="{% static 'styles/bootstrap.min.css'%}">
+</head>
+
+<body>
+    
+    <div class="container">
+      
+
+        <div style="text-align:center; margin-top:5%;">
+          <h3>Sree Chitra Thirunal College of Engineering, Thiruvananthapuram</h1>
+          <h2><b>Election Result 2020</b></h2>
+        </div>
+        
+        <div id="table" style="margin-top:8%";>
+          <table class="table">
+            <tr>
+              <th>Admission No</th>
+              <th>Name</th>
+              <th>Post</th>
+              <th>No of Votes</th>
+            </tr>
+            {% for key, value in candidates.items %}      
+            <tr>
+              <td>{{ value.admission_no }}</td>
+              <td>{{ value.name }}</td>
+              <td>{{ value.position }}</td>
+              <td>{{ value.vote }}</td>
+            </tr>
+            {% endfor %}
+          </table>
+        </div>
+
+        <h3 style="margin-top:4%;"><b>Position Wise Results</b></h3>
+        {% for key, value in posts.items %}
+        <h4 style="margin-top:4%;">{{ key }}</h4>
+        <div id="table" style="margin-top:2%;">
+          <table class="table">
+            <tr>
+              <th>Admission No</th>
+              <th>Name</th>
+              <th>Vote</th>
+            </tr>
+            {% for key, value in value.items %}
+            <tr>
+              <td class="col-sm-3">{{ value.admission_no }}</td>
+              <td >{{ value.name }}</td>
+              <td class="col-sm-2">{{ value.vote }}</td>
+            </tr>
+            {% endfor %}
+          </table>
+        </div>
+        {% endfor %}
+        
+    </div>
+    
+    <script src="{% static 'js/jquery.min.js'%}"></script>
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+    <script src="{% static 'js/jquery.easing.min.js'%}"></script>
+</body>
+
+</html>

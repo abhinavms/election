@@ -12,6 +12,10 @@ class CheckUserSiteMiddleware(MiddlewareMixin):
             request.path.startswith('/admin/')):
             raise Http404
 
+        if (election_status == "True" and 
+            request.path.startswith('/admin/results')):
+            raise Http404
+
         if (request.path.startswith('/admin/') and
                 request.user.is_authenticated and not
                 request.user.is_admin):

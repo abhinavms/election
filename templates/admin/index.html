@@ -77,17 +77,19 @@
 {% endif %}
     
     {% if request.get_full_path == "/admin/" %}
+    {% if election_status == 'False' %}
     <div class="app-result module">
         <table>
             <caption>
                 <a class="section">Result</a>
             </caption>
             <tr class="model-result">
-                <th scope="row"><a href="test">View Final Results</a></th>
+                <th scope="row"><a href="results">View Final Results</a></th>
                 <td>&nbsp;</td>
             </tr>
         </table>
     </div>
+    {% endif %}
     {% endif %}
 </div>
 

@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     #  Apps
     'users',
     'poll',
-    'authoriser'
+    'authoriser',
+    'result'
 ]
 
 AUTH_USER_MODEL = 'users.User' # Changes the built in user model

@@ -54,6 +54,36 @@ def UserCandidateGet(User):
             context[post.id] = applicable_posts
     return context
     
+def AllCandidateGet():
+    context = {}
+    
+    candidate_list = Candidate.objects.all()
+
+    for candidates in candidate_list:
+        cand = {}
+        cand['admission_no'] = candidates.admission_no
+        cand['name'] = candidates.name
+        cand['position'] = str(candidates.post)
+        cand['vote'] = Logs.objects.get(candidate_id=candidates.id).log
+        context[candidates.id] = cand
+    return context
+
+def AllPostsGet():
+    context = {}
+    position_list = Position.objects.all()
+    candidate_list = Candidate.objects.all()
+    for post in position_list:
+        applicable_posts = {}
+        for candidates in candidate_list:
+            applicable_candidates = {}
+            if (candidates.post_id == post.id):
+                applicable_candidates['admission_no'] = candidates.admission_no
+                applicable_candidates['name'] = candidates.name
+                applicable_candidates['vote'] = Logs.objects.get(candidate_id=candidates.id).log
+                applicable_posts[candidates.id] = applicable_candidates
+        context[post.position] = applicable_posts
+    return context
+
 class SiteConfigs(models.Model):
     key = models.CharField(primary_key=True, max_length = 100)
     value = models.CharField(max_length = 100)

@@ -1,7 +1,6 @@
 ## Todo
-1. Login Status in front page
+1. Login Status in login and auth
 2. Prevent user from going to next page without voting
-3. Results
 
 ## Setup Commands
 workon django  
