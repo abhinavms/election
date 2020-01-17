@@ -1,11 +1,12 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
-from users.models import User
+from users.models import User, Profile
 from .models import UserCandidateGet,Candidate,Logs
 from poll.models import SiteConfigs
 from django.db.models import Sum
 import json
+from datetime import datetime
 
 def vote(request):
     if request.user.is_authenticated:
@@ -115,8 +116,14 @@ def update_vote(request):
                             print("error")
                     print(flag)
                     if (flag == 0):
-                        user.profile.status = True
+                        student = user
+                        student_profile = Profile.objects.get(user = student)
+                        student_profile.status = True
+                        print(datetime.now())
+                        student_profile.submission_time = datetime.now()
+                        print ("Here")
                         user.active = False
+                        student_profile.save()
                         user.save()
                         request.session.flush()
                         return render(request, 'success.html')

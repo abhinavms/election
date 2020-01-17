@@ -31,6 +31,8 @@ def authoriser(request):
                         context['password'] = password
                         student.set_password(password)
                         student_profile.allow = True
+                        student_profile.user_approved = user.full_name
+                        print ("Here")
                         student_profile.save()
                         student.save()
                         return render(request, 'authoriser.html', context)
