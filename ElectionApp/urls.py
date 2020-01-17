@@ -6,7 +6,7 @@ from django.conf.urls.static import static
 from users.views import login_page
 from poll.views import vote, switch_election_status,update_vote
 from authoriser.views import authoriser
-from result.views import viewresults
+from result.views import viewresults, save_excel
 
 urlpatterns = [
     path(r'', login_page, name='login'),
@@ -16,6 +16,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('admin/statuschange', switch_election_status),
     path('admin/results', viewresults),
+    path('admin/results_save', save_excel),
 
 ]
 
